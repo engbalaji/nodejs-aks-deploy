@@ -1,11 +1,11 @@
 apiVersion: kustomize.config.k8s.io/v1beta1
 kind: Kustomization
 resources:
-  - deployment.yaml
-  - service.yaml
-  - namespace.yaml
+- deployment.yaml
+- service.yaml
+- namespace.yaml
 namespace: nodejs
 images:
-  - name: nodejs-aks-app
-    newName: nodejs-aks-app
-    newTag: v1
+- name: nodejs-aks-app
+  newName: avik6028/nodejs-aks-app
+  newTag: ea51feb748520c9247db5df3fa3d661868cc4b60
