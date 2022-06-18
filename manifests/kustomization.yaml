@@ -7,5 +7,5 @@ resources:
 namespace: nodejs
 images:
 - name: nodejs-aks-app
-  newName: avik6028/nodejs-aks-app
-  newTag: ea51feb748520c9247db5df3fa3d661868cc4b60
+  newName: yemiwebby/nodejs-aks-app
+  newTag: 6d329ca093f6a759a73d043ee1f34738016f90c0
